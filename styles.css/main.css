@@ -1,0 +1,122 @@
+body{
+    background-color: #D9D9D9;
+}
+.contenedorIndex{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    border: none;
+    width: 18rem;
+    height: 18rem;
+    margin: 1rem;
+    font-size: 2rem;
+    font-family: 'Space Mono', monospace;
+}
+.itemProductos{
+    background-color:#8DD7CF;
+}
+.itemPzado{
+    background-color: #D6B1B1;
+}
+.itemMomentos{
+    background-color: #B2ACFA ; 
+}
+.itemContacto{
+    background-color: #DE9AE8;  
+}
+.tituloMain{
+    text-align: center;
+    padding: 3rem;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+
+/* Productos */
+.tituloPro{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.phoneGaleriaPro{
+    width: 20rem;
+}
+
+/* PERSONALIZADO */
+.tituloPzadoo{
+    grid-area: tituloPzado;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+.itemPzadoo{
+    height: 30rem;
+    width: 30rem;
+    padding-top: 15vh;
+    overflow: hidden;
+    background-color: #D6B1B1 ;  
+    font-size: 2rem;
+}
+.imgPzadoo{
+    margin: 0.3125rem 0 0 0;
+    width: 300vh ;
+    height: 300vh;
+    border: 0.5rem solid #D6B1B1;
+    border-radius: 0 1rem 1rem 0; 
+}
+.subtituloPzadoo{
+    grid-area: subtituloPzado;
+    font-size: 2.8rem;
+}
+.pasosPzado{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+.listaPasos{
+    list-style: none;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Space Mono', monospace;
+}
+.listaPasos li{
+    padding: 0 0 0.90rem 0 ;
+}
+.diseñador{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(214, 36, 36);
+}
+
+/* Momentos */
+.contenedorGaleria{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.textoGaleria{
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+
+.tituloMo{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+h3{
+    font-size: 1rem;
+}
+
+/* Contactos */
+.tituloContacto{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    padding-top: 2rem;
+}
